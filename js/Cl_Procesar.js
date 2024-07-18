@@ -11,6 +11,7 @@ export default class Cl_Procesar{
         this.contPersonal++}
         if(this.menor > pe._sueldo){
             this.auxNombre = pe._nombre;
+            this.menor = pe.sueldo;
         }
     }
     calcularPromedio(){
